@@ -11,7 +11,7 @@ public class Contacts0 {
         String[][] list = new String[MAX_CAPACITY][3];
         int count = 0;
         while (true) {
-            System.out.print("|| " + "Enter command: ");
+            System.out.print("|| " + "Enter command:    ");
             String inputLine = SCANNER.nextLine();
             while (inputLine.trim().isEmpty() || inputLine.trim().charAt(0) == '#') {
                 inputLine = SCANNER.nextLine();
