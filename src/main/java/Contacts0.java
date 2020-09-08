@@ -17,7 +17,7 @@ public class Contacts0 {
                 inputLine = SCANNER.nextLine();
             }
             String userCommand = inputLine;
-            System.out.println("|| [Command entered:" + userCommand + "]");
+            System.out.println("|| [Command entered:" + userCommand + "]   ");
             String feedback;
             final String[] split = userCommand.trim().split("\\s+", 2);
             final String[] commandTypeAndParams = split.length == 2 ? split : new String[]{split[0], ""};
